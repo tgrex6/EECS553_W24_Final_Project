@@ -1,2 +1,4 @@
 # EECS553_W24_Final_Project
 EECS 553 W24 Final Project, UMich, Ann Arbor
+
+The major component of this project is basically a semantic segmentation task for the nucleus in H&E stained histology images of multi-organ tumor cells. Accurate segmentation of cell nuclei allows the analysis of key features like density, size ratios, and shape variations. These are critical for evaluating cancer severity and predicting treatment outcomes. In this project, we will employ UNet++ model to perform this task. UNet++ is a new general purpose image segmentation architecture for more accurate image segmentation. This architecture integrates a series of UNets with variable depths. These redesigned skip pathways are strategically devised to surmount two predominant limitations associated with the conventional UNet architecture: firstly, the indeterminate optimal depth, and secondly, the overly constricted configuration of skip connections.
